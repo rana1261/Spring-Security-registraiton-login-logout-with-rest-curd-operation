@@ -1,0 +1,185 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 16, 2017, 4:37:44 PM
+    Author     : Khairul
+*/
+
+
+.red{color:red}
+.black{color:black}
+.green{color:green}
+.blue{color:blue}
+.yellow{color:yellow}
+.white{color:white}
+.gray{color:#6E6E6E}
+.hand{cursor: pointer;}
+.td_bg_color{background-color: #D8D8D8;}
+.display_none{display: none;}
+.patientImg{
+    background-image:url("../images/patient/patientImage.png");
+    width: 32px;
+    height: 32px;	 
+    cursor: pointer;
+    position:relative;
+    //padding:20px;
+    margin:2px;
+    background-repeat: no-repeat;	 
+}
+.patientImgMin{
+    background-image:url("../images/patient/patientImage.png");
+    width: 32px;
+    height: 32px;	 
+    cursor: pointer;
+    position:relative;
+    // padding:10px;
+    margin-top:-10px;
+    background-repeat: no-repeat;	 
+}
+.f8{font-size:8px}
+.f9{font-size:9px}
+.f10{font-size:10px }
+.f12{font-size:12px }
+.f13{font-size:13px }
+.f14{font-size:14px }
+.f15{font-size:15px }
+.f16{font-size:16px }
+.f18{font-size:18px }
+.f20{font-size:20px }
+.f22{font-size:22px }
+.f24{font-size:24px }
+.fbold{font-weight: bold}
+
+.mgTop{margin-top: 7px}
+.mgBottom{margin-bottom: 7px}
+
+.input-border { 
+    appearance: none;
+    outline: 0;
+    border: 1px solid #6E6E6E;
+    padding: 2px 10px;
+    text-align: left;
+    font-size: 14px;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    font-weight: 200;
+}
+.input-border:hover {
+    background-color: #fff;
+    color:#04B431;
+    border: 1px solid #04c;
+}
+.input-border:focus {
+    background-color: white;
+    border: 2px solid #04c;
+    color: #000;
+}
+.fieldset-border {
+    border-top: 1px groove #ddd !important;
+    padding: 0.5em 0.5em 0.5em 2.5em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+}
+
+.fieldset-border-after {
+    border: 1px groove #ddd !important;
+    border-radius: 4px;
+}
+
+.legend-border {
+    font-size: 1.0em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width:14em;
+    padding: .3em;
+    padding-left: 1.5em;
+    margin: 0.4em 0 0 0;
+    border-radius: 20px;
+    border:1px solid green; 
+}
+.border-div {border: 1px groove #BDBDBD !important;}
+
+.rsTable{ 
+    margin:5px 5px; 
+    border-style:1px  solid black; 
+    border-collapse: collapse;
+    line-height: 100px }
+.rsTable input{
+    appearance: none;
+    outline: 0;
+    height: 20px;
+    border: 1px solid #6E6E6E;
+    padding: 2px 10px;
+    text-align: left;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    font-weight: 200;}
+.rsCell { padding:3px 3px;}
+.left-mi {margin-left: -12px}
+
+.abc input[type=text]{
+    width: 100%;
+    padding: 1px;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    word-wrap:break-word;
+    font-size: 10pt;
+    height: 22px;
+    color: #000;
+}
+.abc input[type=text]:hover{
+    width: 100%;
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.abc input[type="text"]:focus {
+    width: 100%;
+    padding: 1px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.color{background-color: #eee;}
+.no-color{background-color: #fff;}
+
+.btn1{
+    display: inline-block;
+    padding: 15px 0px;
+
+    height:120px;
+    width:140px;
+    margin-left:20px;
+    margin-bottom:20px;
+    font-size: 14px;
+    word-wrap:break-word;
+    color: #000;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #eee;
+    vertical-align: middle;
+    box-shadow: 1px 1px 1px #4C6E91;
+    -webkit-box-shadow: 1px 1px 1px #4C6E91;
+    -moz-box-shadow: 1px 1px 1px #4C6E91;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+}
+.btn1:hover {
+    color: green;
+    font-family:arial;
+    font-weight:bold;
+    box-shadow: 1px 5px 8px 2px #4C6E91;
+}

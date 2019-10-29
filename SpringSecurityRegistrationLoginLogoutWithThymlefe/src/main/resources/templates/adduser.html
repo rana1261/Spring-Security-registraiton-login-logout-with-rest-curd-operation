@@ -1,0 +1,51 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <script src="/bootstrap/jquery-3.1.1.min.js"></script>
+    <script src="/bootstrap/bootstrap.min-3.3.7.js"></script>
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/bootstrap/font-awesome.min.css"/>
+    <title>registration </title>
+</head>
+<body>
+<div class="container">
+    <div class="form-group">
+        <center><h2 class="centre" style="margin-right: 40px;">Registration Form</h2></center>
+    </div>
+
+    <hr>
+   <center> <p th:inline="text">[[${result}]]</p></center>
+    <form class="form-horizontal" action="#" th:action="@{/registration}" th:object="${user}" method="post">
+        <div class="form-group">
+            <label class="control-label col-sm-3" for="email">Name:</label>
+            <div class="col-sm-5">
+                <input type="text" th:field="*{name}" class="form-control" id="name" placeholder="Enter name" name="name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-3" for="email">Email:</label>
+            <div class="col-sm-5">
+                <input type="email" th:field="*{email}" class="form-control" id="email" placeholder="Enter email"
+                       name="email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-3" for="pwd">Password:</label>
+            <div class="col-sm-5">
+                <input type="password" th:field="*{password}" class="form-control" id="pwd"
+                       placeholder="Enter password">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-6">
+                <button class="btn btn-danger pull-right" type="reset">Reset</button>
+                <button type="submit" class="btn btn-primary btn-success pull-right">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
